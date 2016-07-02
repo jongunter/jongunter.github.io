@@ -39,13 +39,33 @@
     </a>
     </div>
 
-    <div class="brand">
+    <a class="brand" href="/">
       Jon Gunter
       <small>Software Engineer &amp; Designer</small>
-    </div>
+    </a>
 
 
   </div>
   <!-- /.container -->
 
 </header>
+<nav>
+  <div class="container" >
+
+    <ul class="nav nav-pills">
+      {% for my_page in site.pages %}
+        
+
+          {% if my_page.title %}
+          <li>
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          </li>
+          {% endif %}
+
+        
+        {% endfor %}
+      </ul>
+
+  </div>
+  <!-- /.container -->
+</nav>

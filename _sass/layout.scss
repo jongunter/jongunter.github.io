@@ -1,5 +1,5 @@
 
-header {
+body > header {
 	
 	background:  $brand;
 	padding: 30px 0;
@@ -15,12 +15,24 @@ header {
 	font-weight: 700;
 	line-height:1;
 
+	&:hover {
+		color: $almost-white;
+	}
+
 	small {
 		color: $almost-white;
 		display: block;
 		font-size: 25px;
 		font-weight: 300;
 		margin-top:10px;
+	}
+
+}
+
+.brand, .brand small {
+
+	&:hover {
+		text-decoration: none;
 	}
 
 }
@@ -37,4 +49,26 @@ header {
 		margin-right:5px;
 	}
 	
+}
+
+body > nav {
+	background: $brand-light;
+	font-family: $heading-font;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 15px 0;
+
+	li {
+		margin-right: 15px;
+	}
+
+	.nav-pills a {
+		color: $almost-white;
+		padding: 0;
+
+		&:hover {
+			background: transparent;
+			color: white;
+		}
+	}
 }
