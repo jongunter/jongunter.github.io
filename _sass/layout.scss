@@ -24,3 +24,17 @@ header {
 	}
 
 }
+
+.jg-contact-icons {
+	a {
+		font-size: 20px;
+		color: $almost-white;
+
+		&:hover {
+			color: white;
+		}
+
+		margin-right:5px;
+	}
+	
+}
