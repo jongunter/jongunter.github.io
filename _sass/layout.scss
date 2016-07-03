@@ -1,5 +1,21 @@
 
-body > header {
+body {
+	background: $brand-lighter;
+	height: 100%;
+
+}
+
+.jg-page-wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.jg-main-content {
+	flex-grow: 1;
+}
+
+.jg-page-wrapper > header {
 	
 	background:  $brand;
 	padding: 30px 0;
@@ -51,7 +67,7 @@ body > header {
 	
 }
 
-body > nav {
+.jg-page-wrapper > nav {
 	background: $brand-light;
 	font-family: $heading-font;
 	font-size: 25px;
@@ -71,4 +87,11 @@ body > nav {
 			color: white;
 		}
 	}
+}
+
+footer {
+	text-align: center;
+	color: $almost-white;
+	background: $brand;
+	padding: 20px 0;
 }
