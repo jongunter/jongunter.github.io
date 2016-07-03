@@ -1,0 +1,22 @@
+[
+	{
+		title: "Home",
+		link: "/"
+	},
+	{
+		title: "About",
+		link: "/about/"
+	},
+	{
+		title: "Web",
+		link: "/web/"
+	},
+	{
+		title: "Graphics",
+		link: "/web/"
+	},
+	{
+		title: "Open Source",
+		link: "/open-source/"
+	}
+]
