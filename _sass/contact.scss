@@ -1,0 +1,45 @@
+.jg-contact-form {
+	form {
+		margin-top: 20px;
+		background: $brand-lighter;
+		padding: 20px 30px;
+
+		.form-control {
+			border-radius: 0;
+			border: none;
+			font-size: 20px;
+		}
+
+		.form-control:not(textarea){
+			padding: 20px 10px;
+		}
+
+		.jg-contact-form-submit {
+			width: calc(100% + 30px + 30px);
+			margin: -20px -30px;
+			border: none;
+			border-radius: 0;
+			background: $brand;
+			border-top: 10px white solid;
+			margin-top: 20px;
+			text-transform: uppercase;
+			font-family: $heading-font;
+			font-size: 25px;
+			padding: 15px;
+		}
+
+		label {
+			color: $brand;
+			font-family: $heading-font;
+			text-transform: uppercase;
+			font-weight: 300;
+			letter-spacing: 1px;
+
+			&::after{
+				content: ":";
+			}
+		}
+	}
+
+
+}

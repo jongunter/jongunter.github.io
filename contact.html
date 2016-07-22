@@ -4,38 +4,82 @@ title:  "Contact"
 date:   2016-05-30 22:08:09 -0600
 categories: contact
 ---
-<div class="jg-contact-form">
+<div class="row">
+<div class="jg-contact-form col-md-8">
+
+Use the form below to get in contact with me. Or if you want, you can use the contact information on the right side of the page—whatever works best for you!
+
 	<form action="https://formspree.io/jon@jongunter.com"
 	      method="POST">
 	      <div class="row">
 
 	      	<div class="form-group col-md-6">
-	      		<label class="control-label">Name</label>
+	      		<label class="control-label">
+	      			<em class="fa fa-user"></em>&nbsp;
+	      			Name
+	      		</label>
 	      		<input type="text" name="name" class="form-control" required>
 	      	</div>
 	      	<!-- /.form-group -->
 
 	      	<div class="form-group col-md-6">
-	      		<label class="control-label">Email</label>
+	      		<label class="control-label">
+	      			<em class="fa fa-envelope-o"></em>&nbsp;
+	      			Email
+				</label>
 	      		<input type="email" name="_replyto" class="form-control" required>
 	      	</div>
 	      	<!-- /.form-group -->
 	    	
 	      	<div class="form-group col-md-12">
-	      		<label class="control-label">Company Name (totally optional)</label>
+	      		<label class="control-label">
+	      			<em class="fa fa-building-o"></em>&nbsp;
+	      			Company Name (totally optional)
+	      		</label>
 	      		<input type="text" name="company" class="form-control" required>
 
 	      	</div>
 
 	      	<div class="form-group col-md-12">
-	      		<label class="control-label">Message</label>
-				<textarea name="message" class="form-control" rows="3" required>Write a Nice Note...</textarea>
+	      		<label class="control-label">
+	      			<em class="fa fa-pencil-square-o"></em>
+	      			Message
+	      		</label>
+				<textarea name="message" class="form-control" rows="3" required></textarea>
 	      	</div>
 
 	      	<div class="col-md-12">
-	    		<input type="submit" value="Send" class="btn btn-primary btn-block">
+	    		<button type="submit" class="btn btn-primary btn-block jg-contact-form-submit">
+	    			<em class="fa fa-paper-plane"></em>&nbsp;
+	    			Send
+	    		</button>
 	    	</div>
 	    </div>
 	</form>
 </div>
 <!-- /.jg-contact-form -->
+
+
+<div class="col-md-4 jg-contact-info">
+	EMAIL
+Jon@JonGunter.com
+
+PHONE
+(847) 984-0862
+
+LINKEDIN:
+linkedin.com/in/jongunter1
+
+GITHUB:
+jongunter
+
+WORDPRESS:
+jongunter
+
+TWITTER:
+@JonGunter1
+</div>
+<!-- /.jg-contact-info -->
+
+</div>
+<!-- /.row -->
