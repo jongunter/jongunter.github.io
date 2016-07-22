@@ -43,3 +43,22 @@
 
 
 }
+
+.jg-contact-info {
+	h2:first-child {
+		margin-top: 0;
+	}
+
+	h2 {
+		margin-top: 30px;
+	}
+
+	.fa {
+		padding: 10px 7px;
+		background: black;
+		width: 50px;
+		text-align: center;
+		color: white;
+	}
+
+}
