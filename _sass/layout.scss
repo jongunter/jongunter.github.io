@@ -97,6 +97,22 @@ h1 {
 	}
 }
 
+.page-content {
+	background: white;
+	padding: 30px 40px;
+	margin: 15px 0;
+}
+
+header h1 {
+	color: $brand-lighter;
+	font-size: 60px;
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-bottom: 15px;
+	border-bottom: 5px $brand-lighter solid;
+}
+
+
 footer {
 	text-align: center;
 	color: $almost-white;
