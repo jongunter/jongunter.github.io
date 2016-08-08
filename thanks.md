@@ -7,3 +7,5 @@ categories:
 
 
 Thank you for contacting me. I'll try to reply within 48 hours.
+
+[Go back to the home page](/).
