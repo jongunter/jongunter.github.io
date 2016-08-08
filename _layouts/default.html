@@ -5,7 +5,7 @@
 
   <body>
 
-    <div class="jg-page-wrapper">
+    <div class="jg-page-wrapper" data-asm-wrapper>
     
 {% include header.html %}
 
@@ -25,6 +25,24 @@
 
 </div>
 <!-- /.jg-page-wrapper -->
+
+<nav data-asm-push-left class="jg-slide-menu">
+    <ul class="nav nav-pills nav-stacked">
+        {% assign url = page.url|remove:'index.html' %}
+      {% assign sorted_pages = site.pages | sort:"order" %}
+      {% for my_page in sorted_pages %}
+        
+          {% if my_page.categories contains 'nav'  %}
+          <li {% if url == my_page.url %}class="active"{% endif %} >
+            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          </li>
+          {% endif %}
+
+        
+        {% endfor %}
+
+    </ul>
+  </nav>
 
   </body>
 

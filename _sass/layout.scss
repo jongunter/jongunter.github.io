@@ -27,6 +27,20 @@ h2 {
 	}
 }
 
+.jg-menu-button {
+	color: white;
+	margin-right: 15px;
+
+	button:hover {
+		background: transparent !important;
+
+	}
+
+	button:focus {
+		border: none;
+
+	}
+}
 
  
 .jg-page-wrapper {
@@ -44,6 +58,10 @@ h2 {
 	background:  $brand;
 	padding: 30px 0;
 
+}
+
+.jg-slide-menu {
+	background: $brand-light;
 }
 
 .brand {
