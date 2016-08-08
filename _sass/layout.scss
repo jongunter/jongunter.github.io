@@ -102,6 +102,8 @@ h2 {
 		margin-right: 15px;
 	}
 
+
+
 	.nav-pills a {
 		color: $almost-white;
 		padding: 0;
@@ -110,6 +112,12 @@ h2 {
 			background: transparent;
 			color: white;
 		}
+	}
+
+	li.active a {
+		background: transparent;
+		color: white !imporant;
+
 	}
 }
 
