@@ -1,6 +1,6 @@
 
 body {
-	background: $brand-lighter;
+	background: $brand-primary;
 	height: 100%;
 	font-size: 18px;
 
@@ -46,6 +46,7 @@ h2 {
 
  
 .jg-page-wrapper {
+	background: $brand-lighter;
 	display: flex;
 	flex-direction: column;
 	min-height: 100vh;
@@ -160,12 +161,20 @@ h2 {
 }
 
 h1 {
-	color: $brand-lighter;
-	font-size: 60px;
+	color: $brand-primary;
+	font-size: 30px;
 	margin-top: 0;
-	margin-bottom: 25px;
-	padding-bottom: 15px;
-	border-bottom: 5px $brand-lighter solid;
+	padding-bottom: 5px;
+	
+	border-bottom: 3px $brand-light solid;
+
+	@media (min-width: 700px){
+		color: $brand-light;
+		font-size: 50px;
+		margin-bottom: 25px;
+		padding-bottom: 15px;
+		border-bottom-width: 5px;
+	}
 }
 
 
@@ -186,6 +195,7 @@ footer {
 		background-image: url('../images/jongunter-orange.svg');
 		height: 300px;
 		background-size: cover;
+		background-position: center center;
 	}
 
 	.jg-intro-text {
