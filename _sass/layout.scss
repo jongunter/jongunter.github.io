@@ -65,6 +65,22 @@ h2 {
 
 .jg-slide-menu {
 	background: $brand-light;
+
+	a {
+		font-family: $heading-font;
+		color: $almost-white;
+		text-transform: uppercase;
+		font-size: 20px;
+	}
+
+	li > a {
+		border-radius: 0 !important;
+	}
+
+	li.active a {
+		background: $brand-lighter;
+		color: $brand-primary;
+	}
 }
 
 .brand {
